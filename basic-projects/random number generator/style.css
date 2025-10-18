@@ -1,0 +1,13 @@
+body{
+    font-family: verdana;
+    text-align: center;
+}
+#randomBtn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.randLabels{
+    font-size: 3em;
+}

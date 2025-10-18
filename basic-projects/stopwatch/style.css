@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+#header{
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family:system-ui, -apple-system;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: whitesmoke;
+}
+#display{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px;
+    font-size: 5rem;
+    font-family: monospace;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(88, 105, 255);
+    transition: background-color 0.5s ease;
+}
+#controls button:hover{
+    background-color: rgba(88, 105, 255, 0.8);
+}

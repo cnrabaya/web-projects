@@ -1,0 +1,28 @@
+body{
+    width: 150px;
+    height: 200px;
+}
+.counterContainer{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+#count{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: Helvetica;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 3em;
+    color: white;
+    background-color: rgb(120, 77, 190);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color: rgb(37, 3, 117);
+}
